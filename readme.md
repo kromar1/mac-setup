@@ -13,26 +13,21 @@ Steps to set up my Mac for development
 
 Keyboard shortcut in Finder: `command` + `shift` + `.`
 
-
     defaults write com.apple.finder AppleShowAllFiles YES
+
 
 ### Show path bar
 
-
     defaults write com.apple.finder ShowPathbar -bool true
+
 
 ### Show status bar
 
-
     defaults write com.apple.finder ShowStatusBar -bool true
 
-### Show Library folder
-
-    chflags nohidden ~/Library
 
 
 ## Homebrew
-
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -40,11 +35,11 @@ Make sure all is good at this point
 
     brew cask install firefox
 
-## PostfreSQL
+## PostgreSQL
 
 ### Install
 
-    brew install postresql
+    brew install postgresql
 
 ### Start
 
@@ -54,7 +49,7 @@ Make sure all is good at this point
 
     brew services stop postgresql
 
-### Commmon commands
+### Commmon commands in psql
 
 `\q` Exit psql connection
 
@@ -107,9 +102,11 @@ Make sure all is good at this point
 
 `SF Mono Light 16pt`
 
+Download [here](https://developer.apple.com/fonts/)
+
 or
 
-`Source Coce Pro Light 17pt`
+`Source Code Pro Light 17pt`
 
 Download [here](https://github.com/powerline/fonts/tree/master/SourceCodePro)
 
@@ -117,11 +114,9 @@ Download [here](https://github.com/powerline/fonts/tree/master/SourceCodePro)
 
 ### Download Node
 
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
-
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
     nvm install node
-
 
     nvm use node
 
@@ -133,6 +128,19 @@ Download [here](https://github.com/powerline/fonts/tree/master/SourceCodePro)
 ## Gulp
 
     npm install --global gulp-cli
+    
+## Angular CLI
+
+    npm install -g @angular/cli
+    
+## React
+
+    npm install -g create-react-app
+    
+Or use npx
+
+    npx create-react-app my-app
+
 
 ## SSH key
 
@@ -163,6 +171,13 @@ e.g connect to GitHub
 ### Firefox
 
     brew cask install firefox
+
+
+### Install FiraCode font
+
+    brew tap caskroom/fonts
+    brew cask install font-fira-code
+
 
 ### Visual Studio Code 
 
