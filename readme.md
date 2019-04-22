@@ -13,16 +13,13 @@ Steps to set up my Mac for development
 
 Keyboard shortcut in Finder: `command` + `shift` + `.`
 
-
     defaults write com.apple.finder AppleShowAllFiles YES
 
 ### Show path bar
 
-
     defaults write com.apple.finder ShowPathbar -bool true
 
 ### Show status bar
-
 
     defaults write com.apple.finder ShowStatusBar -bool true
 
@@ -30,9 +27,10 @@ Keyboard shortcut in Finder: `command` + `shift` + `.`
 
     chflags nohidden ~/Library
 
+    ### Change the computer name
+    sudo scutil --set HostName name-you-want
 
 ## Homebrew
-
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -129,7 +127,6 @@ Download [here](https://github.com/powerline/fonts/tree/master/SourceCodePro)
 
     nvm install node --reinstall-packages-from=node
 
-
 ## Gulp
 
     npm install --global gulp-cli
@@ -164,11 +161,12 @@ e.g connect to GitHub
 
     brew cask install firefox
 
-### Visual Studio Code 
+### Visual Studio Code
 
     brew cask install visual-studio-code
 
 #### Install the VS Code CLI Command
+
     Open the Command Palette (⇧⌘P) and type 'shell command' to find the Shell Command: Install 'code' command in PATH command
 
 #### List installed extensions
@@ -180,6 +178,7 @@ e.g connect to GitHub
     code --install-extension Angular.ng-template
     code --install-extension Arjun.swagger-viewer
     code --install-extension bierner.markdown-preview-github-styles
+    code --install-extension ChakrounAnas.turbo-console-log
     code --install-extension christian-kohler.npm-intellisense
     code --install-extension christian-kohler.path-intellisense
     code --install-extension clinyong.vscode-css-modules
@@ -204,17 +203,23 @@ e.g connect to GitHub
     code --install-extension Mikael.Angular-BeastCode
     code --install-extension mikestead.dotenv
     code --install-extension miramac.vscode-exec-node
+    code --install-extension ms-mssql.mssql
     code --install-extension ms-python.python
+    code --install-extension ms-vscode.csharp
+    code --install-extension ms-vscode.powershell
+    code --install-extension ms-vscode.vscode-typescript-tslint-plugin
     code --install-extension msjsdiag.debugger-for-chrome
     code --install-extension nathanchapman.JavaScriptSnippets
     code --install-extension PeterJausovec.vscode-docker
+    code --install-extension pflannery.vscode-versionlens
     code --install-extension PKief.material-icon-theme
     code --install-extension quicktype.quicktype
     code --install-extension redhat.vscode-yaml
-    code --install-extension robertohuertasm.vscode-icons
+    code --install-extension sidneys1.gitconfig
+    code --install-extension taniarascia.new-moon-vscode
+    code --install-extension vscode-icons-team.vscode-icons
     code --install-extension vsmobile.vscode-react-native
     code --install-extension waderyan.nodejs-extension-pack
     code --install-extension xabikos.JavaScriptSnippets
     code --install-extension xabikos.ReactSnippets
     code --install-extension zhuangtongfa.Material-theme
-
