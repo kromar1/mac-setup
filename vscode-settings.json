@@ -6,7 +6,6 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "editor.cursorStyle": "block",
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
@@ -47,10 +46,22 @@
   "window.nativeTabs": true,
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "One Dark Pro",
+  "workbench.colorTheme": "Nord",
   "workbench.editor.tabCloseButton": "left",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
-    "editor.background": "#1c1f24"
-  }
+    "editor.background": "#252932",
+    "editorGutter.background": "#252932",
+    "terminal.background": "#252932",
+    "tab.activeBackground": "#252932",
+    "sideBar.background": "#2a2e38",
+    "tab.hoverBackground": "#252932",
+    "tab.hoverBorder": "#bf616a",
+    "tab.unfocusedHoverBackground": "#252932",
+    "tab.unfocusedHoverBorder": "#bf616a",
+    "editor.selectionHighlightBackground": "#2e3440",
+    "editor.selectionHighlightBorder": "#3b4252"
+  },
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 3
 }

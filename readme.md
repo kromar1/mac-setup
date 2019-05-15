@@ -294,6 +294,14 @@ Note: this still requires local installation using
 
     npm install --global gulp-cli
 
+### Now
+
+    npm install -g now
+
+### Surge
+
+    npm install -g surge
+
 ## PostgreSQL
 
 ### Install
@@ -315,3 +323,12 @@ or, if you don't want/need a background service you can just run
 ### To migrate existing data from a previous major version of PostgreSQL run
 
     brew postgresql-upgrade-database
+
+## Handbrake
+
+https://handbrake.fr
+
+## VLC
+
+https://www.videolan.org/vlc/
+
