@@ -220,14 +220,16 @@ or
     code --install-extension ms-vscode.csharp
     code --install-extension ms-vscode.vscode-typescript-tslint-plugin
     code --install-extension msjsdiag.debugger-for-chrome
+    code --install-extension msjsdiag.vscode-react-native
     code --install-extension PeterJausovec.vscode-docker
     code --install-extension pflannery.vscode-versionlens
     code --install-extension PKief.material-icon-theme
     code --install-extension Prisma.vscode-graphql
     code --install-extension redhat.vscode-yaml
     code --install-extension taniarascia.new-moon-vscode
+    code --install-extension VisualStudioExptTeam.vscodeintellicode
     code --install-extension vscode-icons-team.vscode-icons
-    code --install-extension vsmobile.vscode-react-native
+    code --install-extension wesbos.theme-cobalt2
     code --install-extension xabikos.JavaScriptSnippets
     code --install-extension xabikos.ReactSnippets
     code --install-extension zhuangtongfa.Material-theme
