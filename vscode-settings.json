@@ -1,15 +1,15 @@
 {
-  "breadcrumbs.enabled": true,
-  "breadcrumbs.symbolPath": "off",
-  "debug.console.fontFamily": "Fira Code",
-  "debug.console.fontSize": 14,
+  // **********
+  // editor
+  // **********
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 15,
+  "editor.fontWeight": "100",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 1000,
@@ -21,47 +21,115 @@
   "editor.wordWrapColumn": 120,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "afterDelay",
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.trailingComma": "all",
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/docs": true
-  },
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "turboConsoleLog.addSemicolonInTheEnd": true,
-  "turboConsoleLog.logMessagePrefix": ">>>",
-  "turboConsoleLog.quote": "'",
-  "vs-kubernetes": {
-    "vs-kubernetes.helm-path": "/Users/mario/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-    "vs-kubernetes.minikube-path": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
-    "vs-kubernetes.draft-path": "/Users/mario/.vs-kubernetes/tools/draft/darwin-amd64/draft"
-  },
-  "window.nativeTabs": true,
-  "window.zoomLevel": 0,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorWidth": 3,
+  "editor.copyWithSyntaxHighlighting": true,
+  // "editor.renderWhitespace": "boundary",
+  "editor.renderIndentGuides": true,
+
+  // **********
+  // workbanch
+  // **********
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Nord",
   "workbench.editor.tabCloseButton": "left",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
-    "editor.background": "#252932",
-    "editorGutter.background": "#252932",
-    "terminal.background": "#252932",
-    "tab.activeBackground": "#252932",
-    "sideBar.background": "#2a2e38",
-    "tab.hoverBackground": "#252932",
-    "tab.hoverBorder": "#bf616a",
-    "tab.unfocusedHoverBackground": "#252932",
-    "tab.unfocusedHoverBorder": "#bf616a",
-    "editor.selectionHighlightBackground": "#2e3440",
-    "editor.selectionHighlightBorder": "#3b4252"
+    "[Nord]": {
+      "editor.background": "#252932",
+      "editorGutter.background": "#252932",
+      "terminal.background": "#252932",
+      "tab.activeBackground": "#252932",
+      "sideBar.background": "#2a2e38",
+      "tab.hoverBackground": "#252932",
+      "tab.hoverBorder": "#bf616a",
+      "tab.unfocusedHoverBackground": "#252932",
+      "tab.unfocusedHoverBorder": "#bf616a",
+      "editor.selectionHighlightBackground": "#2e3440",
+      "editor.selectionHighlightBorder": "#3b4252",
+      "list.inactiveSelectionBackground": "#3b4252",
+      "list.activeSelectionBackground": "#434c5e",
+      "list.activeSelectionForeground": "#d8dee9",
+      "list.hoverBackground": "#2e3440"
+    },
+    "[Cobalt2]": {
+      "gitDecoration.ignoredResourceForeground": "#706e6e",
+      "tab.activeBackground": "#213547",
+      "tab.activeBorder": "#1e3041",
+      "tab.inactiveBackground": "#077bf73e"
+    }
   },
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorWidth": 3
+  "workbench.settings.editor": "json",
+  "workbench.editor.closeEmptyGroups": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false,
+
+  // **********
+  // git
+  // **********
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  // **********
+  // window
+  // **********
+  "window.nativeTabs": true,
+  "window.zoomLevel": 1,
+
+  // **********
+  // prettier
+  // **********
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "all",
+
+  // **********
+  // turbo console
+  // **********
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.logMessagePrefix": ">>>",
+  "turboConsoleLog.quote": "'",
+
+  // **********
+  // kubernetes
+  // **********
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path": "/Users/mario/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.minikube-path": "/Users/mario/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+    "vs-kubernetes.draft-path": "/Users/mario/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+  },
+
+  // **********
+  // language customisations
+  // **********
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // **********
+  // terminal
+  // **********
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.fontWeight": "100",
+
+  // **********
+  // debugging
+  // **********
+  "debug.console.fontFamily": "Fira Code",
+  "debug.console.fontSize": 14,
+  "debug.toolBarLocation": "docked",
+  "debug.node.autoAttach": "on",
+
+  // **********
+  // Other
+  // **********
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolPath": "off",
+  "files.autoSave": "afterDelay",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/docs": true
+  }
 }
